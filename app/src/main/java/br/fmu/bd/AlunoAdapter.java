@@ -30,7 +30,7 @@ public class AlunoAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         AlunoViewHolder alunoHolder = (AlunoViewHolder) holder;
         Aluno aluno = alunos.get(position);
-        alunoHolder.ra.setText(aluno.ra);
+        alunoHolder.ra.setText(Integer.toString(aluno.ra));
         alunoHolder.nome.setText(aluno.nome);
     }
 
