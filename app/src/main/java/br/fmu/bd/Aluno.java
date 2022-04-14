@@ -8,4 +8,9 @@ public class Aluno {
     @PrimaryKey
     public int ra;
     public String nome;
+
+    public Aluno(int ra, String nome) {
+        this.ra = ra;
+        this.nome = nome;
+    }
 }

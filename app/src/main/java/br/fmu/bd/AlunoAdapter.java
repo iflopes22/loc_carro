@@ -22,7 +22,7 @@ public class AlunoAdapter extends RecyclerView.Adapter {
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.item_aluno,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.card_layout,parent,false);
         return new AlunoViewHolder(view);
     }
 

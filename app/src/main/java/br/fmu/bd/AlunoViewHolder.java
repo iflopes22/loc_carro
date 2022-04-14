@@ -13,7 +13,7 @@ public class AlunoViewHolder extends RecyclerView.ViewHolder {
 
     public AlunoViewHolder(@NonNull View itemView) {
         super(itemView);
-        ra = itemView.findViewById(R.id.item_aluno_ra);
-        nome = itemView.findViewById(R.id.item_aluno_nome);
+        ra = itemView.findViewById(R.id.textView);
+        nome = itemView.findViewById(R.id.textView2);
     }
 }
