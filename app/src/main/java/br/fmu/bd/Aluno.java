@@ -7,5 +7,12 @@ import androidx.room.PrimaryKey;
 public class Aluno {
     @PrimaryKey
     public int ra;
+
+    public Aluno(int ra, String nome) {
+        this.ra = ra;
+        this.nome = nome;
+    }
+
     public String nome;
+
 }

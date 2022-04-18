@@ -15,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, ListaAlunosActivity.class);
         startActivity(intent);
+
+
     }
 }

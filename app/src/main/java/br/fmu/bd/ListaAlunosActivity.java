@@ -1,6 +1,7 @@
 package br.fmu.bd;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -19,7 +20,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
         AlunoDao dao = db.alunoDao();
         List<Aluno> alunos = dao.getAlunos();
         recyclerView.setAdapter( new AlunoAdapter(alunos,this));
-        RecyclerView.LayoutManager layout = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        RecyclerView.LayoutManager layout = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(layout);
     }
 }
