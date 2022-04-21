@@ -64,7 +64,6 @@
         android:layout_marginTop="26dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toStartOf="@+id/editTextRa"
         app:layout_constraintTop_toBottomOf="@+id/editTextRa" />
 
@@ -102,8 +101,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="39dp"
         android:onClick="listar"
         android:text="Lista"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="454dp" />
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
