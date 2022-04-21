@@ -7,6 +7,19 @@
     android:layout_height="wrap_content">
 
     <TextView
+        android:id="@+id/item_aluno_dataNasc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="34dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/item_aluno_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_aluno_ra" />
+
+    <TextView
         android:id="@+id/item_aluno_ra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,14 +34,25 @@
 
     <TextView
         android:id="@+id/item_aluno_nome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="166dp"
+        android:layout_height="19dp"
         android:layout_marginStart="100dp"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/item_aluno_email"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_aluno_dataNasc"
+        app:layout_constraintTop_toBottomOf="@+id/item_aluno_nome" />
 </androidx.constraintlayout.widget.ConstraintLayout>

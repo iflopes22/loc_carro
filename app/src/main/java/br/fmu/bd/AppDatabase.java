@@ -9,7 +9,7 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.room.TypeConverters;
 
-@Database(entities={Aluno.class},version=1)
+@Database(entities={Aluno.class},version=2)
 @TypeConverters(DateConverter.class)
 abstract public class AppDatabase extends RoomDatabase {
     private static AppDatabase sInstance;
