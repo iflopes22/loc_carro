@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ian10/eclipse-workspace/bd/app/src/main/res/layout/item_aluno.xml" value="0.1" />
         <entry key="..\:/Users/profsl/AndroidStudioProjects/bd/app/src/main/res/layout/activity_lista_alunos.xml" value="0.1" />
         <entry key="..\:/Users/profsl/AndroidStudioProjects/bd/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/profsl/AndroidStudioProjects/bd/app/src/main/res/layout/item_aluno.xml" value="0.67" />
